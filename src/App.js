@@ -1,49 +1,26 @@
 import Headbar from "./components/Headbar";
 import Home from "./components/Home";
 import RecentWorks from "./components/RecentWorks";
-import { FaGithub, FaCopyright } from "react-icons/fa";
+// import { FaGithub, FaCopyright } from "react-icons/fa";
 
-// import About from "./components/About";
-// import Blog from "./components/Blog";
+import { Switch, Route, useLocation } from "react-router-dom";
 
-// import { Switch, Route, useLocation } from "react-router-dom";
-
-// import { AnimatePresence } from "framer-motion";
-// import "./styles/styles.css";
-// import Bottombar from "./components/Bottombar";
-
-// const pageVariants = {
-//   initial: {
-//     opacity: 0,
-//   },
-//   in: {
-//     opacity: 1,
-//   },
-//   out: {
-//     opacity: 0,
-//   },
-// };
+import { AnimatePresence } from "framer-motion";
+import Sidenav from "./components/Sidenav";
 
 function App() {
-  // const currentlocation = useLocation();
-  // console.log(currentlocation);
+  const currentlocation = useLocation();
   return (
     <div className="App">
       <Headbar />
-      <Home />
-      {/* <div className="flex justify-between"> */}
-      {/* <AnimatePresence exitBeforeEnter>
+      <AnimatePresence exitBeforeEnter>
         <Switch location={currentlocation} key={currentlocation.pathname}>
-          <Route path="/home" exact component={Home} />
-          <Route path="/about" exact component={About} />
+          <Route path="/" exact component={Home} />
           <Route path="/works" exact component={RecentWorks} />
-          <Route path="/blog" exact component={Blog} />
         </Switch>
-      </AnimatePresence> */}
-      <RecentWorks />
-      {/* <Bottombar /> */}
-      {/* </div> */}
-      <div>
+      </AnimatePresence>
+      <Sidenav />
+      {/* <div>
         <div className="w-full flex p-5 justify-center items-center text-xl">
           <p>
             This Website was created using{" "}
@@ -58,7 +35,7 @@ function App() {
           <p>2020 Gokul Suresh</p>
           <FaGithub className="m-3" />
         </footer>
-      </div>
+      </div> */}
     </div>
   );
 }

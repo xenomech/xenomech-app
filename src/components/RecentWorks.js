@@ -17,11 +17,7 @@ const Projects = [
     disc: "A program to detect face of a person from a live vedio feed.",
     link: "https://github.com/xenomech/Face-recognition-Using-OpenCV",
   },
-  {
-    name: "A customized version of the Dynamic Window Manager",
-    disc: "Enhanced version of a window manager ",
-    link: "https://github.com/xenomech/dwm",
-  },
+
   {
     name: "Portfolio",
     disc: "The source code for this webapp",
@@ -56,20 +52,6 @@ function RecentWorks() {
         className="w-full overflow-hidden"
       >
         <div className="flex-col flex overflow-auto justify-between px-5 text-3xl sm:py-24  sm:items-center lg:flex-row ">
-          {/* <motion.div
-            initial={{ scale: 0, opacity: 0 }}
-            animate={{ scale: 1, opacity: 1 }}
-            whileHover={{ scale: 1.5 }}
-            className="md:mx-5"
-          >
-            <Link
-              className="m-auto flex justify-start items-center text-6xl"
-              to="/about"
-            >
-              <MdKeyboardArrowLeft color="black" />
-              <p className="md:hidden text-2xl">Back</p>
-            </Link>
-          </motion.div> */}
           <div>
             <h2 className=" md:pb-12 md:px-12 m-3  pt-5 items-center justify-start flex text-4xl md:text-5xl">
               My Works

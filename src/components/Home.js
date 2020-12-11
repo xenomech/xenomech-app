@@ -48,17 +48,14 @@ function Home() {
       animate="visible"
       variants={pageanimvarients}
       exit="exit"
-      className="md:py-20"
     >
-      <div className="z-10 flex-col sm:rounded-3xl sm:shadow-3xl bg-white flex justify-between px-10  sm:mx-10 sm:my-24 sm:items-center xl:flex-row ">
+      <div className=" flex-col flex justify-between px-10 sm:mx-10  sm:my-24 sm:items-center xl:flex-row ">
         <article className="text-xl md:text-3xl sm:mt-5 sm:mb-20">
-          <h2 className="mt-5 lg:mt-20">Hi 👋 , My name is Gokul Suresh</h2>
-          <p>
-            I am a Computer Science student at{" "}
-            <a
-              className="text-green-800 hover:text-green-600"
-              href="http://www.fisat.ac.in/"
-            >
+          <p className="my-5 lg:mt-20">
+            Hi 👋 , My name is Gokul Suresh
+            <br />I am a Computer Science student at
+            <a className="hover:text-blue-600" href="http://www.fisat.ac.in/">
+              {" "}
               Federal Institute of Science And Technology (FISAT)® <br />
             </a>
             who like to build things! 🚀
