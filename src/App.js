@@ -1,6 +1,7 @@
 import Headbar from "./components/Headbar";
 import Home from "./components/Home";
 import RecentWorks from "./components/RecentWorks";
+// import svg from "./assets/Rectangle.svg";
 // import { FaGithub, FaCopyright } from "react-icons/fa";
 
 import { Switch, Route, useLocation } from "react-router-dom";
@@ -20,6 +21,7 @@ function App() {
         </Switch>
       </AnimatePresence>
       <Sidenav />
+
       {/* <div>
         <div className="w-full flex p-5 justify-center items-center text-xl">
           <p>
