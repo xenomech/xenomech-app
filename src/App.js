@@ -1,13 +1,13 @@
 import Headbar from "./components/Headbar";
 import Home from "./components/Home";
-import RecentWorks from "./components/RecentWorks";
+import { Switch, Route, useLocation } from "react-router-dom";
+import { AnimatePresence } from "framer-motion";
+
+
+// import RecentWorks from "./components/RecentWorks";
 // import svg from "./assets/Rectangle.svg";
 // import { FaGithub, FaCopyright } from "react-icons/fa";
-
-import { Switch, Route, useLocation } from "react-router-dom";
-
-import { AnimatePresence } from "framer-motion";
-import Sidenav from "./components/Sidenav";
+// import Sidenav from "./components/Sidenav";
 
 function App() {
   const currentlocation = useLocation();
@@ -17,10 +17,10 @@ function App() {
       <AnimatePresence exitBeforeEnter>
         <Switch location={currentlocation} key={currentlocation.pathname}>
           <Route path="/" exact component={Home} />
-          <Route path="/works" exact component={RecentWorks} />
+          {/* <Route path="/works" exact component={RecentWorks} /> */}
         </Switch>
       </AnimatePresence>
-      <Sidenav />
+      {/* <Sidenav /> */}
 
       {/* <div>
         <div className="w-full flex p-5 justify-center items-center text-xl">
