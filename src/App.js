@@ -6,7 +6,6 @@ import { AnimatePresence } from "framer-motion";
 
 // import RecentWorks from "./components/RecentWorks";
 // import svg from "./assets/Rectangle.svg";
-// import { FaGithub, FaCopyright } from "react-icons/fa";
 // import Sidenav from "./components/Sidenav";
 
 function App() {
