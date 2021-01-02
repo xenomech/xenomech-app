@@ -1,4 +1,4 @@
-import image from "../assets/home-bg-fr-white.png";
+// import image from "../assets/home-bg-fr-white.png";
 import { motion } from "framer-motion";
 import {
   FaGithub,
@@ -201,11 +201,11 @@ function Home() {
           </div>
         </article>
         
-        <motion.img
+        {/* <motion.img
           className="-ml-2 md:m-2"
           src={image}
           alt="the-home-bitmoji-goes-here"
-        />
+        /> */}
       </div>
     </motion.div>
   );

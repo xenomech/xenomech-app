@@ -19,7 +19,10 @@ function App() {
           {/* <Route path="/works" exact component={RecentWorks} /> */}
         </Switch>
       </AnimatePresence>
-      {/* <Sidenav /> */}
+
+
+
+
 
       {/* <div>
         <div className="w-full flex p-5 justify-center items-center text-xl">
