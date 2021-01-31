@@ -5,10 +5,10 @@ import {
   FaLinkedin,
   FaGitlab,
   FaEnvelope,
-  FaPhoneAlt,
-  FaSnapchat,
+  // FaPhoneAlt,
+  // FaSnapchat,
   FaInstagram,
-  FaDiscord,
+  // FaDiscord,
   FaTwitter,
 } from "react-icons/fa";
 
@@ -123,7 +123,7 @@ function Home() {
                 <FaLinkedin size="30px" />
               </motion.div>
             </motion.a>
-            <motion.a
+            {/* <motion.a
               variants={iconanimvarients}
               initial="initial"
               animate="animate"
@@ -137,8 +137,8 @@ function Home() {
               >
                 <FaPhoneAlt size="30px" />
               </motion.div>
-            </motion.a>
-            <motion.a
+            </motion.a> */}
+            {/* <motion.a
               variants={iconanimvarients}
               initial="initial"
               animate="animate"
@@ -152,7 +152,7 @@ function Home() {
               >
                 <FaSnapchat size="30px" />
               </motion.div>
-            </motion.a>
+            </motion.a> */}
             <motion.a
               variants={iconanimvarients}
               initial="initial"
@@ -183,7 +183,7 @@ function Home() {
                 <FaTwitter size="30px" />
               </motion.div>{" "}
             </motion.a>
-            <motion.a
+            {/* <motion.a
               variants={iconanimvarients}
               initial="initial"
               animate="animate"
@@ -197,7 +197,7 @@ function Home() {
               >
                 <FaDiscord size="30px" />
               </motion.div>
-            </motion.a>
+            </motion.a> */}
           </div>
         </article>
         
