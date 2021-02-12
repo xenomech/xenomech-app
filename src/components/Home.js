@@ -114,7 +114,7 @@ function Home() {
               animate="animate"
               transition={{ delay: 1.4 }}
               className="px-4"
-              href="https://www.linkedin.com/in/gokul-suresh-b0737a154/"
+              href="https://www.linkedin.com/in/gokulsmenon227"
             >
               <motion.div
                 variants={iconanimvarients}
