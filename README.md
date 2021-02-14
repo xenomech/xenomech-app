@@ -1,10 +1,6 @@
 <h1 align="center" >Xenomech v1.0 beta</h1>
 <h2 align="center">
 <img src="./src/assets/Bitmoji_/chilling.png"  alt="readme img" /><br/>
-created using : </br>
-<img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K" width="50px"/>
- <img alt="Tailwind CSS" width="150px" src="https://refactoringui.nyc3.cdn.digitaloceanspaces.com/tailwind-logo.svg">
- <svg width="40px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 15"><path d="M0 14V1l6.5 6.5L13 1v13l-3.25-3.25L6.5 14l-3.25-3.25z" fill="#000000"></path></svg>
 </h2>
 <h1 align="center">This project was bootstrapped with <a href="https://github.com/facebook/create-react-app">React.js</a></h1>
 
