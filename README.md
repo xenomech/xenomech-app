@@ -1,6 +1,6 @@
 <h1 align="center" >Xenomech v1.0 beta</h1>
 <p align="center">
-<img src="./src/assets/chilling.png"  alt="readme img" /></p>
+<img src="./src/assets/Bitmoji_/chilling.png"  alt="readme img" /></p>
 <h1 align="center">This project was bootstrapped with <a href="https://github.com/facebook/create-react-app">React.js</a></h1>
 
 ## Available Scripts
