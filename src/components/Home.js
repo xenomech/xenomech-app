@@ -11,6 +11,7 @@ import {
   // FaDiscord,
   FaTwitter,
 } from "react-icons/fa";
+import Blog from "./Blog";
 
 const iconanimvarients = {
   initial: { scale: 0, opacity: 0 },
@@ -200,13 +201,14 @@ function Home() {
             </motion.a> */}
           </div>
         </article>
-        
+
         {/* <motion.img
           className="-ml-2 md:m-2"
           src={image}
           alt="the-home-bitmoji-goes-here"
         /> */}
       </div>
+      <Blog />
     </motion.div>
   );
 }
