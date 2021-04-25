@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
 
 function Blog() {
   return (
@@ -11,7 +10,7 @@ function Blog() {
           transition={{ delay: 2, ease: "easeInOut" }}
         >
           <motion.div whileHover={{ x: 15 }}>
-            <Link to="/blog">My blog 👉</Link>
+            <a href="http://xenomech.netlify.app">My blog 👉</a>
           </motion.div>
         </motion.p>
       </div>
